@@ -1,0 +1,101 @@
+{
+    "status": true,
+    "message": "Search result fetch successfully.",
+    "responseCode": 200,
+    "data": {
+        "present": true,
+        "totalNumberOfResult": 4,
+        "autoCompleteList": {
+            "byPropertyName": {
+                "present": true,
+                "listOfResult": [
+                    {
+                        "valueToDisplay": "Hotel India International Dx",
+                        "propertyName": "Hotel India International Dx",
+                        "address": {
+                            "city": "New Delhi",
+                            "state": "Delhi"
+                        },
+                        "searchArray": {
+                            "type": "hotelIdSearch",
+                            "query": [
+                                "qyhZqzVt"
+                            ]
+                        }
+                    }
+                ],
+                "numberOfResult": 1
+            },
+            "byStreet": {
+                "present": true,
+                "listOfResult": [
+                    {
+                        "valueToDisplay": "614-615, 12th Main Rd, 7th Cross, Hal 2nd Stage, Indiranagar",
+                        "address": {
+                            "street": "614-615, 12th Main Rd, 7th Cross, Hal 2nd Stage, Indiranagar",
+                            "city": "Bengaluru",
+                            "state": "Karnataka",
+                            "country": "India"
+                        },
+                        "searchArray": {
+                            "type": "streetSearch",
+                            "query": [
+                                "614-615, 12th Main Rd, 7th Cross, Hal 2nd Stage, Indiranagar",
+                                "Bengaluru",
+                                "Karnataka",
+                                "India"
+                            ]
+                        }
+                    },
+                    {
+                        "valueToDisplay": "Indira Bypass Rd, Upper Sichey, Arithang",
+                        "address": {
+                            "street": "Indira Bypass Rd, Upper Sichey, Arithang",
+                            "city": "Gangtok",
+                            "state": "Sikkim",
+                            "country": "India"
+                        },
+                        "searchArray": {
+                            "type": "streetSearch",
+                            "query": [
+                                "Indira Bypass Rd, Upper Sichey, Arithang",
+                                "Gangtok",
+                                "Sikkim",
+                                "India"
+                            ]
+                        }
+                    }
+                ],
+                "numberOfResult": 2
+            },
+            "byCity": {
+                "present": false,
+                "listOfResult": [],
+                "numberOfResult": 0
+            },
+            "byState": {
+                "present": false,
+                "listOfResult": [],
+                "numberOfResult": 0
+            },
+            "byCountry": {
+                "present": true,
+                "listOfResult": [
+                    {
+                        "valueToDisplay": "India",
+                        "address": {
+                            "country": "India"
+                        },
+                        "searchArray": {
+                            "type": "countrySearch",
+                            "query": [
+                                "India"
+                            ]
+                        }
+                    }
+                ],
+                "numberOfResult": 1
+            }
+        }
+    }
+} 
